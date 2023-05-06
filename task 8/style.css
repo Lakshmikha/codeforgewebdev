@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body {
   margin: 0;
 }
@@ -42,3 +43,49 @@ p{
   font-size: 2rem;
 
 }
+=======
+html, body {
+  margin: 0;
+}
+
+html {
+  font-family: monospace;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: inherit;
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: -4px;
+  right: 5px;
+
+  color: transparent;
+  text-shadow: 0 0 4px white;
+}
+
+p{
+  position: absolute;
+  margin: 0;
+  top: 35px;
+  right: 5px;
+  color: #aaa;
+  font-size: 2rem;
+}
+
+.tips{
+  position: absolute;
+  margin: 0;
+  top:0px;
+  left: 5px;
+  color: #aaa;
+  font-size: 2rem;
+
+}
+>>>>>>> 09acbe5314ba80c6e7b3a2445c8a6c46ccad3c3c
