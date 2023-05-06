@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* General page styles */
 
 body {
@@ -61,4 +62,69 @@ h2, p {
 .card img {
     max-height: 100%;
     float: right;
+=======
+/* General page styles */
+
+body {
+    margin: 0;
+  }
+  
+html {
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-size: 10px;
+    background-color: #ccc;
+  }
+
+h2, p {
+    margin: 0;
+}
+
+/* Card container styles */
+
+.card {
+    width: 25em;
+    height: 15em;
+    margin: 5em auto;
+    background-color: red;
+    border: 0.2em solid black;
+    border-radius: 1.5em;
+  }
+
+
+
+/* Header and footer styles */
+
+.card header, .card footer {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+    border-radius: 1.5em 1.5em 0 0;
+    height: 1.5625em;
+    padding: 0.625em;
+}
+
+.card footer p {
+    font-size: 0.950em;
+    height: 0.920em;
+}
+
+/* Main business card container */
+
+.card h2 {
+    font-size: 1.25em;
+    height: 0.9375em;
+}
+
+.card article {
+    height: 9.2em;
+    background-color: rgb(68, 66, 66, .5);
+}
+
+.card article p {
+    padding: 0.625em;
+    color: aliceblue;
+}
+
+.card img {
+    max-height: 100%;
+    float: right;
+>>>>>>> 09acbe5314ba80c6e7b3a2445c8a6c46ccad3c3c
   }
